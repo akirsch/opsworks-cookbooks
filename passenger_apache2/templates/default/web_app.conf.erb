@@ -18,7 +18,7 @@
 
   <Directory <%= @params[:docroot] %>>
     Options FollowSymLinks
-    AllowOverride None
+    AllowOverride AuthConfig
     Order allow,deny
     Allow from all
   </Directory>
